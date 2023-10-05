@@ -1,0 +1,62 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  height: 100vh; /* Utiliza el 100% de la altura de la ventana */
+}
+
+/* Estilo para el contenedor del formulario */
+  .container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}
+  
+  /* Estilo para los campos de entrada de texto */
+  input[type="text"] {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+    /* Estilo para los campos de entrada de texto */
+    input[type="email"] {
+      width: 96%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  
+  input[type="submit"]:hover {
+    background-color: #05c3f2;
+  }
+  
+  button{
+    width: 100%;
+    padding: 10px;
+    background-color: #27e4f6;
+    color: #030510;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+  
+  /* Estilo para el mensaje de error */
+  .error {
+    color: #bfec0a;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  
